@@ -25,26 +25,32 @@ and resolved by fixing private subnet routing using a NAT Gateway.
 ## 📸 Screenshots (Proof of Work)
 
 ### VPC Setup
-![VPC](screenshots/vpc%20created.png)
+![VPC Created](screenshots/vpc-created.png)
+
 
 ### EC2 & Apache
-![Webserver Created](screenshots/webserver%20created.png)
-![Apache Running](screenshots/apache-running.png.png)
+![Webserver Created](screenshots/webserver-created.png)
+![Apache Running](screenshots/apache-running.png)
+
 
 ### Load Balancer & Target Group Issue
-![Load Balancer Created](screenshots/created%20loadbalancer.png)
-![Target Group Unhealthy](screenshots/target-group-unhealthy.png.png)
-![ALB Unhealthy Host Count Alarm](screenshots/ALB-unhealthyhost%20count.png)
+![Load Balancer Created](screenshots/created-loadbalancer.png)
+![Target Group Unhealthy](screenshots/target-group-unhealthy.png)
+![ALB Alarm](screenshots/alb-unhealthyhost-count.png)
+
 
 ### Monitoring & Access Issue
-![Session Manager Issue](screenshots/session%20manager%20connect%20issue.png)
+![Session Manager Issue](screenshots/session-manager-issue.png)
+
 
 ### Networking Fix
-![VPC Endpoints](screenshots/endpoints%20created.png)
-![Private Route Table After Fix](screenshots/private-route-table-after-fix.png.png)
+![Private Route Table Before Fix](screenshots/private-route-table-before-fix.png)
+![Private Route Table After Fix](screenshots/private-route-table-after-fix.png)
+![VPC Endpoints](screenshots/endpoints-created.png)
 
 ### Final Result
-![Target Group Healthy](screenshots/target-group-healthy.png.png)
+![Target Group Healthy](screenshots/target-group-healthy.png)
+
 
 ---
 
